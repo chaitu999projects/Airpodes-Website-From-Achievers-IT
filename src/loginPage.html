@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Signup - Tech-Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../src/music.html">
+    <link rel="stylesheet" href="../src/music.css">
+    <link rel="stylesheet" href="../src/productCart.html">
+</head>
+<body class="bg-black text-white">
+
+    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark">
+        <div class="logo">
+            <a href="../src/music.html">Tech-Shop</a>
+        </div>
+        <div class="icons">
+            <div class="icon">
+                <i class="fas fa-search"></i>
+                <div class="text-hover">Search</div>
+            </div>
+            <div class="icon">
+                <a href="../src/productItems.html"><i class="fas fa-shopping-cart"></i></a>
+                <div class="text-hover">
+                    <a href="../src/productItems.html">Cart</a>
+                </div>
+            </div>
+            <div class="icon">
+                <i class="fas fa-user"></i>
+                <div class="text-hover text-hover-user-login p-4 border border-3">
+                    <div>
+                        <h3 class="text-center mb-3">Login</h3>
+                        <div class="d-flex flex-row align-items-center justify-content-center" >
+                            <a href="../src/loginPage.html" class=" p-2 mr-2 border border-2 border-light text-center">SignUp</a>
+                            <a href="../src/loginPage.html" class=" p-2 border border-2 border-light text-center">Login</a>
+                        </div>
+                        <p class="text-center mt-3 text-lg">Please SignUp </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="flex items-center justify-center min-h-screen">
+        <div class="relative bg-black bg-opacity-80 p-8 rounded-lg shadow-lg w-full max-w-md">
+            <button class="absolute top-4 right-4 text-white">
+                <i class="fas fa-times"></i>
+            </button>
+            <h2 class="text-2xl font-semibold mb-4">Signup</h2>
+            <p class="mb-6">Already have an account? <a href="#" class="text-blue-500">Login</a></p>
+            <form class="bg-secondary">
+                <div class="mb-4">
+                    <input type="text" placeholder="Username" class="w-full p-3 bg-black border border-gray-600 rounded text-white">
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Email" class="w-full p-3 bg-black border border-gray-600 rounded text-white">
+                </div>
+                <div class="mb-4">
+                    <input type="password" placeholder="Password" class="w-full p-3 bg-black border border-gray-600 rounded text-white">
+                </div>
+                <div class="mb-6">
+                    <input type="password" placeholder="Confirm Password" class="w-full p-3 bg-black border border-gray-600 rounded text-white">
+                </div>
+                <button type="submit" class="w-full p-3 bg-red-600 rounded text-white">Signup</button>
+            </form>
+        </div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-80 p-4 flex items-center justify-between">
+        <button class="text-white">
+            <i class="fas fa-times"></i>
+        </button>
+        <a href="#" class="text-blue-500">Join MX Silver to skip ads</a>
+    </div>
+</body>
+</html>

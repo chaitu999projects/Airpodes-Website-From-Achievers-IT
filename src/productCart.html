@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="productCard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Product Information</title>
+</head>
+<body>
+    <!-- =========== Navbar =========== -->
+
+    
+    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark">
+        <div class="logo">
+            <a href="../src/music.html">Tech-Shope</a>
+        </div>
+        <div class="icons">
+            <div class="icon">
+                <i class="fas fa-search"></i>
+                <div class="text-hover">
+                    <a href="../src/music.html">Search</a>
+                </div>
+            </div>
+            <div class="icon">
+                <a href="../src/productItems.html"><i class="fas fa-shopping-cart"></i></a>
+                <div class="text-hover">Cart</div>
+            </div>
+            <div class="icon">
+                <i class="fas fa-user"></i>
+                <div class="text-hover text-hover-user-login p-4 border border-3">
+                    <div>
+                        <h3 class="text-center mb-3">Login</h3>
+                        <div class="d-flex flex-row align-items-center justify-content-center">
+                            
+                            <a href="../src/loginPage.html" class="mr-1 p-2 border border-2 border-light text-center">Sign Up</a>
+                            <a href="../src/loginPage.html" class=" p-2 border border-2 border-light text-center">Login</a>
+                        </div>
+                        <p class="text-center mt-3 text-lg">Please SignUp </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- =========== Product Information =========== -->
+    <div class="product-main-container">
+        <section class="product-details-container">
+            <div>
+                <div class="container-cards">
+                    <img src="../src/products/jbl660nc-1.png" alt="cardImage" class="img-card"/>
+                </div>
+                <div class="container-cards container-cards1">
+                    <img src="../src/products/jbl660nc-2.png" alt="cardImage" class="img-card"/>
+                </div>
+                <div class="container-cards container-cards1">
+                    <img src="../src/products/jbl660nc-3.png" alt="cardImage" class="img-card"/>
+                </div>
+                <div class="container-cards container-cards1">
+                    <img src="../src/products/jbl660nc-4.png" alt="cardImage" class="img-card"/>
+                </div>
+            </div>
+            <div>
+                <img src="../src/products/jbl660nc-1.png" alt="cardImage" class="jbl-img-card"/>  
+            </div>
+            <div class="rate-items-container">
+                <div>
+                    <h3 class="rate-heading">JBL Live 660NC</h3>
+                    <p class="rate-para">Wireless Over-Ear NC Headphones</p>
+                    <div class="icon-star-container">
+                        <i class="fa-solid fa-star icon-star"></i>
+                        <i class="fa-solid fa-star icon-star"></i>
+                        <i class="fa-solid fa-star icon-star"></i>
+                        <i class="fa-solid fa-star icon-star"></i>
+                        <i class="fa-solid fa-star icon-star"></i>
+                        <h4 class="rate-para">|1234 Rating</h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="inshock-container">
+                    <div>
+                        <h3 class="inshock-heading"><i class="fa-solid fa-indian-rupee-sign"></i>9,999 <span class="span-container"><i class="fa-solid fa-indian-rupee-sign span-container"></i>14,999</span></h3>
+                        <p class="inshock-para">You save: <i class="fa-solid fa-indian-rupee-sign"></i>5,000 (33%)</p>
+                        <p class="rate-para">(Inclusive of all taxes)</p>
+                    </div>
+                    <div>
+                        <button class="btn button"><i class="fa-solid fa-check"></i>In Stock</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="offer-container">
+                    <h4 class="offer-heading">Offers and Discounts</h4>
+                    <button class="button-offer">No Cost EMI on Credit Card</button>
+                    <button class="button-offer">
+                        Pay Later & Avail Cashback
+                    </button>
+                </div>
+                <hr>
+                <button class="button-add p-2">Add to cart</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- ===================== SP cards ==================== -->
+    <section class="special-container">
+        <h6 class="special-heading special-heading1 p-2">Specifications</h6>
+        <h6 class="special-heading">Overview</h6>
+        <h6 class="special-heading">Reviews</h6>
+     </section>
+     <!-- unorderd-list-items -->
+      <section class="unorder-container">
+        <ul class="unorder-list unorder-list1"> 
+            <li>Brand</li>
+            <li>Model</li>
+            <li>Generic Name</li>
+            <li>Headphones Type</li>
+            <li>Connectivity</li>
+            <li>Microphone</li>
+          </ul>
+          <ul class="unorder-list unorder-list2">
+            <li>JBL</li>
+            <li>JBL Live 660NC</li>
+            <li>Headphones</li>
+            <li>Over Ear</li>
+            <li>Wireless</li>
+            <li>Yes</li>
+          </ul>
+      </section>
+
+    <!-- ===================== related products ==================== -->
+    <section class="related-container">
+        <h3 class="related-heading">Related Products</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 mb-2">
+                    <div class="card">
+                        <div class="related-image pt-3 pb-3">
+                            <img src="../src/products/jbl660nc-1.png" class="card-img-top card-related-image" alt="...">
+                        </div>
+                        <div class="card-body card1">
+                            <div class="mb-2">
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            </div>
+                          <h5 class="card-title">JBL Live 660NC</h5>
+                          <p class="card-text">Some quick example text to build</p>
+                          <hr>
+                          <h5 class="related-icons mb-4"><i class="fa-solid fa-indian-rupee-sign"></i>9,999 <span class="related-span-icon"><i class="fa-solid fa-indian-rupee-sign"></i>14,999</span></h5>
+                          <a href="#" class="btn button-related">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-2">
+                    <div class="card">
+                        <div class="related-image pt-3 pb-3">
+                            <img src="../src/products/boat518-1.png" class="card-img-top card-related-image" alt="...">
+                        </div>
+                        <div class="card-body card1">
+                            <div class="mb-2">
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            </div>
+                          <h5 class="card-title">boAt Rockerz 518</h5>
+                          <p class="card-text">On-Ear Wireless Headphones</p>
+                          <hr>
+                          <h5 class="related-icons mb-4"><i class="fa-solid fa-indian-rupee-sign"></i>1,299 <span class="related-span-icon"><i class="fa-solid fa-indian-rupee-sign"></i>3,999</span></h5>
+                          <a href="#" class="btn button-related">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-2">
+                    <div class="card"> 
+                        <div class="related-image pt-3 pb-3">
+                            <img src="../src/products/boat410-1.png" class="card-img-top card-related-image" alt="...">
+                        </div>
+                        <div class="card-body card1">
+                            <div class="mb-2">
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            </div>
+                          <h5 class="card-title">boAt Rockerz 518</h5>
+                          <p class="card-text">Bluetooth & Wired On-Ear</p>
+                          <hr>
+                          <h5 class="related-icons mb-4"><i class="fa-solid fa-indian-rupee-sign"></i>1,599 <span class="related-span-icon"><i class="fa-solid fa-indian-rupee-sign"></i>2,999</span></h5>
+                          <a href="#" class="btn button-related">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-2">
+                    <div class="card">
+                        <div class="related-image pt-3 pb-3">
+                            <img src="../src/products/sonyXb910n-1.png" class="card-img-top card-related-image" alt="...">
+                        </div>
+                        <div class="card-body card1">
+                            <div class="mb-2">
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            <i class="fa-solid fa-star related-star"></i>
+                            </div>
+                          <h5 class="card-title">Sony WH-XB910N</h5>
+                          <p class="card-text">Wireless Over-Ear Headphones</p>
+                          <hr>
+                          <h5 class="related-icons mb-4"><i class="fa-solid fa-indian-rupee-sign"></i>13,489 <span class="related-span-icon"><i class="fa-solid fa-indian-rupee-sign"></i>19,990</span></h5>
+                          <a href="#" class="btn button-related">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                
+            </div>
+        </div>
+   </section>
+
+    
+    <!-- ===================== advantage container ==================== -->
+    <section class="advantages-section">
+        <h2 class="advantages-title">Our Advantages</h2>
+        <div class="advantages-container">
+            <div class="advantage-item d-flex flex-row align-items-center ">
+                <div class="mr-3">
+                    <i class="fas fa-shipping-fast advantage-icon"></i>
+                </div>
+                <div>
+                    <p class="advantage-title">Express Delivery</p>
+                    <p class="advantage-desc">Ships in 24 Hours</p>
+                </div>
+            </div>
+            <div class="advantage-item d-flex flex-row align-items-center ">
+                <div class="mr-3">
+                    <i class="fas fa-shield-alt advantage-icon"></i>
+                </div>
+                <div>
+                    <p class="advantage-title">Brand Warranty</p>
+                    <p class="advantage-desc">100% Original products</p>
+                </div>
+            </div>
+            <div class="advantage-item d-flex flex-row align-items-center">
+                <div class="mr-3">
+                    <i class="fas fa-tags advantage-icon"></i>
+                </div>
+                <div>
+                    <p class="advantage-title">Exciting Deals</p>
+                    <p class="advantage-desc">On all prepaid orders</p>
+                </div>
+            </div>
+            <div class="advantage-item d-flex flex-row align-items-center">
+                <div class="mr-3">
+                    <i class="fas fa-lock advantage-icon"></i>
+                </div>
+                <div>
+                    <p class="advantage-title">Secure Payments</p>
+                    <p class="advantage-desc">SSL / Secure contracts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== footer ==================== -->
+    <footer class="footer">
+
+        <div class="footer-content">
+            <div class=" mb-4 mr-2" >
+                <h3>Tech-Shop</h3>
+                <p>Subscribe to our email alerts to receive early discount offers and new product info.</p>
+                <input type="email" class="subscribe-input" placeholder="Email Address"> <br>
+                <button class="subscribe-btn mt-2">Subscribe</button>
+            </div>
+            <div class=" mb-4 mr-2">
+                <h3>Help</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Cancel Order</a></li>
+                    <li><a href="#">Return Order</a></li>
+                    <li><a href="#">Warranty Info</a></li>
+                </ul>
+            </div>
+            <div class=" mb-4 mr-2">
+                <h3>Policies</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class=" mb-4 mr-2">
+                <h3>Company</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Service Centers</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Affiliates</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="hr-line">
+        <div class="d-flex flex-row justify-content-between">
+            <div class="mt-4">
+                <p>2021 | All Rights Reserved. Built by | ADARSHA HELVAR</p>
+            </div>
+            <div class="social-icons text-center mt-3">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
